@@ -10,10 +10,9 @@ import FollowMe from "../Picture/Followme.png";
 
 function AboutMe() {
   const Detail = styled.div`
-    border: 2px red solid;
     width: 0100vw;
 
-    height: 30vw;
+    height: 50vh;
     display: flex;
     flex-direction: row;
     aling-items: space-around;
@@ -21,23 +20,20 @@ function AboutMe() {
     font-size: 20px;
   `;
   const TextBox = styled.div`
-    border: 2px red solid;
     width: 40vw;
     height: 30vh;
-    margin-left: 10px;
-
+    margin-left: 10%;
+    margin-top: 3%;
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
   `;
   const Image = styled.img`
-    border: 2px red solid;
     width: 300px;
     height: 300px;
-
+    margin-left: 15%;
+    margin-top: 1%;
     border-radius: 180px;
-
-    right: 20px;
+    box-shadow: 38px -71px 52px 23px rgba(0, 0, 0, 0.1);
   `;
   //   const BackgroundBullet = styled.img`
   //     width: 220px;
@@ -46,12 +42,10 @@ function AboutMe() {
   //     position: relative;
   //   `;
   const FollowMePic = styled.img`
-    border: 2px red solid;
     width: 118px;
     height: 48px;
   `;
   const IconMedia = styled.img`
-    border: 2px red solid;
     width: 48px;
     height: 48px;
     display: flex;
@@ -76,7 +70,9 @@ function AboutMe() {
           <TextBox>
             <h2> Hi!!! I'm Pimporn Sakiya a FullStack developer </h2>I am coding
             with a clean and beautiful problem solving in mind and good
-            communication
+            communication . The projects I am participated: Syracuse, Titan,
+            Blood donation administration etc., most of them are AI related and
+            being funded by non-governmental agencies.
           </TextBox>
 
           <Image src={Kate}></Image>
@@ -90,7 +86,6 @@ function AboutMe() {
           <IconMedia src={Facebook}></IconMedia>
           <IconMedia src={Instargram}></IconMedia>
         </IconBox>
-        <div>Why Hire Me ??</div>
       </div>
     </>
   );
