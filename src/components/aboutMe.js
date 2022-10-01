@@ -1,18 +1,16 @@
 import styled from "@emotion/styled";
 import Kate from "../Picture/Kate.jpg";
-import Bullet from "../Picture/BulletPoints.png";
 import Email from "../Picture/Email.png";
 import twitter from "../Picture/twitter.png";
 import Facebook from "../Picture/Facebook.png";
 import Instargram from "../Picture/Instargram.png";
 import Github from "../Picture/Github.png";
-import FollowMe from "../Picture/Followme.png";
 
 function AboutMe() {
   const Detail = styled.div`
-    width: 0100vw;
+    width: 90vw;
 
-    height: 50vh;
+    height: 35vh;
     display: flex;
     flex-direction: row;
     aling-items: space-around;
@@ -28,19 +26,14 @@ function AboutMe() {
     flex-direction: column;
   `;
   const Image = styled.img`
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     margin-left: 15%;
     margin-top: 1%;
-    border-radius: 180px;
+    border-radius: 240px;
     box-shadow: 38px -71px 52px 23px rgba(0, 0, 0, 0.1);
   `;
-  //   const BackgroundBullet = styled.img`
-  //     width: 220px;
-  //     height: 220 px;
-  //     magin: 30px;
-  //     position: relative;
-  //   `;
+
   const FollowMePic = styled.img`
     width: 118px;
     height: 48px;
@@ -79,12 +72,18 @@ function AboutMe() {
           {/* <BackgroundBullet src={Bullet}></BackgroundBullet> */}
         </Detail>
         <IconBox>
-          {/* <FollowMePic src={FollowMe}></FollowMePic> */}
-          <IconMedia src={Email}></IconMedia>
-          <IconMedia src={twitter}></IconMedia>
-          <IconMedia src={Github}></IconMedia>
-          <IconMedia src={Facebook}></IconMedia>
-          <IconMedia src={Instargram}></IconMedia>
+          <a href="https://twitter.com/">
+            <IconMedia src={twitter} />
+          </a>
+          <a href="https://github.com/Pimporn15" target="_blank">
+            <IconMedia src={Github} />
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <IconMedia src={Facebook} />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <IconMedia src={Instargram} />
+          </a>
         </IconBox>
       </div>
     </>

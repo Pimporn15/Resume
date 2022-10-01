@@ -10,6 +10,7 @@ function Portfolio() {
   const PicPortfolio = styled.img`
     width: 310px;
     height: 310 px;
+    padding: 30px;
   `;
   const TextPortFolio = styled.div`
     width: 100vw;
@@ -21,12 +22,12 @@ function Portfolio() {
   `;
   const BoxPicture = styled.div`
     width: 100vw;
-    height: 310px;
+    height: 400px;
     display: flex;
     flex-direction: row;
     align-item: center;
     justify-content: center;
-    magin: 5px;
+    magin: 15px;
     padding: 5px;
   `;
   const Footer = styled.div`

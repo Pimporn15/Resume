@@ -5,8 +5,8 @@ import Client from "../Picture/Client.png";
 import Professional from "../Picture/Professional.png";
 function WhyHireMe() {
   const PictWhyHireMe = styled.img`
-    width: 90px;
-    height: 90px;
+    width: 111px;
+    height: 111px;
 
     display: flex;
     align-items: center;
@@ -21,21 +21,20 @@ function WhyHireMe() {
     justify-content:center;
     flex-basic:1/5;
     justify-content: space-around;
-    padding: 30;
+    padding: 20px;
   `;
   const TextHeader = styled.div`
     width: 100vw;
     height: 30vh;
-  
+
     display: flex;
     align-items: center;
     justify-content: center;
     font-weight: bold;
-    font-size: 35px;.
-    
+    font-size: 35px;
   `;
   const BoxDetail = styled.div`
-    ont-size: 35px;
+    font-size: 35px;
   `;
   return (
     <>
@@ -43,14 +42,21 @@ function WhyHireMe() {
       <BoxIcon>
         <div>
           <PictWhyHireMe src={commu}></PictWhyHireMe>
-          <p>sdfsdf</p>
+          <h4>Commuicative</h4>
+        </div>
+        <div>
+          <PictWhyHireMe src={Professional}></PictWhyHireMe>
+          <h4>Professional</h4>
         </div>
 
-        <PictWhyHireMe src={Professional}></PictWhyHireMe>
-
-        <PictWhyHireMe src={Collaborative}></PictWhyHireMe>
-
-        <PictWhyHireMe src={Client}></PictWhyHireMe>
+        <div>
+          <PictWhyHireMe src={Collaborative}></PictWhyHireMe>
+          <h4>Collaborative</h4>
+        </div>
+        <div>
+          <PictWhyHireMe src={Client}></PictWhyHireMe>
+          <h4>Client's Favourite</h4>
+        </div>
       </BoxIcon>
     </>
   );
