@@ -13,14 +13,19 @@ function Portfolio() {
     padding: 30px;
   `;
   const TextPortFolio = styled.div`
-    width: 100vw;
-    height: 20vh;
-    font-size: 40px;
-    display: flex;
-
-    align-item: center;
-    background-color: #e8879f;
+    background-color: #cdf0ea;
     magin: 20px;
+    width: 100vw;
+    height: 25vh;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 20px;
+    color: #6f69ac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 35px;
   `;
   const BoxPicture = styled.div`
     width: 100vw;
@@ -38,18 +43,20 @@ function Portfolio() {
   `;
   return (
     <>
-      <TextPortFolio>Portfolio</TextPortFolio>
-      <BoxPicture>
-        <PicPortfolio src={Image0}></PicPortfolio>
-        <PicPortfolio src={Image1}></PicPortfolio>
-        <PicPortfolio src={Image2}></PicPortfolio>
-      </BoxPicture>
-      <BoxPicture>
-        <PicPortfolio src={Image3}></PicPortfolio>
-        <PicPortfolio src={Image4}></PicPortfolio>
-        <PicPortfolio src={Image5}></PicPortfolio>
-      </BoxPicture>
-      <Footer></Footer>
+      <div id="4">
+        <TextPortFolio>Portfolio</TextPortFolio>
+        <BoxPicture>
+          <PicPortfolio src={Image0}></PicPortfolio>
+          <PicPortfolio src={Image1}></PicPortfolio>
+          <PicPortfolio src={Image2}></PicPortfolio>
+        </BoxPicture>
+        <BoxPicture style={{ "background-color": " #f541" }}>
+          <PicPortfolio src={Image3}></PicPortfolio>
+          <PicPortfolio src={Image4}></PicPortfolio>
+          <PicPortfolio src={Image5}></PicPortfolio>
+        </BoxPicture>
+        <Footer></Footer>
+      </div>
     </>
   );
 }

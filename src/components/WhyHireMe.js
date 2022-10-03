@@ -26,7 +26,7 @@ function WhyHireMe() {
   const TextHeader = styled.div`
     width: 100vw;
     height: 15vh;
-
+    color: #d9534f;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -39,9 +39,9 @@ function WhyHireMe() {
 
   return (
     <>
-      <TextHeader> Why Hire Me 😄😄 </TextHeader>
+      <TextHeader id="2"> Why Hire Me 😄😄 </TextHeader>
       <BoxIcon>
-        <div>
+        <div id="#3">
           <PictWhyHireMe src={commu}></PictWhyHireMe>
           <h4>Commuicative</h4>
         </div>

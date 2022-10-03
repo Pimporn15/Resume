@@ -1,17 +1,40 @@
-// import { ChakraProvider } from "@chakra-ui/react";
-// import { Header } from "./styled";
-// export function navbar() {
-//   <Breadcrumb>
-//     <BreadcrumbItem>
-//       <BreadcrumbLink href="#">Home</BreadcrumbLink>
-//     </BreadcrumbItem>
+// import styled from "@emotion/styled"
+// function
 
-//     <BreadcrumbItem>
-//       <BreadcrumbLink href="#">Docs</BreadcrumbLink>
-//     </BreadcrumbItem>
-
-//     <BreadcrumbItem isCurrentPage>
-//       <BreadcrumbLink href="#">Breadcrumb</BreadcrumbLink>
-//     </BreadcrumbItem>
-//   </Breadcrumb>;
+// <style>
+// vul {
+//   list-style-type: none;
+//   margin: 0;
+//   padding: 0;
+//   overflow: hidden;
+//   background-color: #333;
 // }
+
+// li {
+//   float: left;
+// }
+
+// li a {
+//   display: block;
+//   color: white;
+//   text-align: center;
+//   padding: 14px 16px;
+//   text-decoration: none;
+// }
+
+// li a:hover {
+//   background-color: #111;
+// }
+// </style>
+// </head>
+// <body>
+
+// <ul>
+//   <li><a class="active" href="#home">Home</a></li>
+//   <li><a href="#news">News</a></li>
+//   <li><a href="#contact">Contact</a></li>
+//   <li><a href="#about">About</a></li>
+// </ul>
+
+// </body>
+// </html>

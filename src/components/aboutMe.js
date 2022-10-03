@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import Kate from "../Picture/Kate.jpg";
-import Email from "../Picture/Email.png";
+import Email from "../Picture/email.png";
 import twitter from "../Picture/twitter.png";
 import Facebook from "../Picture/Facebook.png";
 import Instargram from "../Picture/Instargram.png";
@@ -10,7 +10,7 @@ function AboutMe() {
   const Detail = styled.div`
     width: 100vw;
 
-    height: 40vh;
+    height: 390px;
     display: flex;
     flex-direction: row;
     aling-items: space-around;
@@ -21,15 +21,15 @@ function AboutMe() {
   `;
   const TextBox = styled.div`
     width: 40vw;
-    height: 30vh;
+    height: 40vh;
     margin-left: 10%;
     margin-top: 3%;
     display: flex;
     flex-direction: column;
   `;
   const Image = styled.img`
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     margin-left: 15%;
 
     border-radius: 240px;
@@ -37,8 +37,8 @@ function AboutMe() {
   `;
 
   const IconMedia = styled.img`
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     padding: 10px;
@@ -94,7 +94,6 @@ function AboutMe() {
           </TextBox>
 
           <Image src={Kate}></Image>
-          {/* <BackgroundBullet src={Bullet}></BackgroundBullet> */}
         </Detail>
       </div>
     </>
