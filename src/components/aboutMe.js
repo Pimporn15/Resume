@@ -8,14 +8,16 @@ import Github from "../Picture/Github.png";
 
 function AboutMe() {
   const Detail = styled.div`
-    width: 90vw;
+    width: 100vw;
 
-    height: 35vh;
+    height: 40vh;
     display: flex;
     flex-direction: row;
     aling-items: space-around;
     color: #f158;
     font-size: 20px;
+    background-color: #f541;
+    border: 3px solid red;
   `;
   const TextBox = styled.div`
     width: 40vw;
@@ -29,15 +31,11 @@ function AboutMe() {
     width: 400px;
     height: 400px;
     margin-left: 15%;
-    margin-top: 1%;
+
     border-radius: 240px;
     box-shadow: 38px -71px 52px 23px rgba(0, 0, 0, 0.1);
   `;
 
-  const FollowMePic = styled.img`
-    width: 118px;
-    height: 48px;
-  `;
   const IconMedia = styled.img`
     width: 48px;
     height: 48px;
@@ -48,12 +46,23 @@ function AboutMe() {
     justify-content: center;
   `;
   const IconBox = styled.div`
-    width: 100vw;
+    width: 50vw;
     height: 50px;
     display: flex;
+    top: 30px;
     justify-content: center;
-    align-items: center;
+    align-items: start;
     margin: 10px;
+  `;
+
+  const DownloadCV = styled.div`
+    font-size: 30 px;
+    width: 150px;
+    height: 100px;
+    broder: red 3px solid;
+    display: flex;
+    justify-content: end;
+    flex-direction: end;
   `;
 
   return (
@@ -66,25 +75,27 @@ function AboutMe() {
             communication . The projects I am participated: Syracuse, Titan,
             Blood donation administration etc., most of them are AI related and
             being funded by non-governmental agencies.
+            <div>
+              <IconBox>
+                <a href="https://twitter.com/">
+                  <IconMedia src={twitter} />
+                </a>
+                <a href="https://github.com/Pimporn15" target="_blank">
+                  <IconMedia src={Github} />
+                </a>
+                <a href="https://www.facebook.com/" target="_blank">
+                  <IconMedia src={Facebook} />
+                </a>
+                <a href="https://www.instagram.com/" target="_blank">
+                  <IconMedia src={Instargram} />
+                </a>
+              </IconBox>
+            </div>
           </TextBox>
 
           <Image src={Kate}></Image>
           {/* <BackgroundBullet src={Bullet}></BackgroundBullet> */}
         </Detail>
-        <IconBox>
-          <a href="https://twitter.com/">
-            <IconMedia src={twitter} />
-          </a>
-          <a href="https://github.com/Pimporn15" target="_blank">
-            <IconMedia src={Github} />
-          </a>
-          <a href="https://www.facebook.com/" target="_blank">
-            <IconMedia src={Facebook} />
-          </a>
-          <a href="https://www.instagram.com/" target="_blank">
-            <IconMedia src={Instargram} />
-          </a>
-        </IconBox>
       </div>
     </>
   );

@@ -25,7 +25,7 @@ function WhyHireMe() {
   `;
   const TextHeader = styled.div`
     width: 100vw;
-    height: 30vh;
+    height: 15vh;
 
     display: flex;
     align-items: center;
@@ -36,6 +36,7 @@ function WhyHireMe() {
   const BoxDetail = styled.div`
     font-size: 35px;
   `;
+
   return (
     <>
       <TextHeader> Why Hire Me 😄😄 </TextHeader>

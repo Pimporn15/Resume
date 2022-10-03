@@ -14,8 +14,10 @@ function Portfolio() {
   `;
   const TextPortFolio = styled.div`
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     font-size: 40px;
+    display: flex;
+
     align-item: center;
     background-color: #e8879f;
     magin: 20px;
