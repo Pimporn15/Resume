@@ -9,7 +9,7 @@ import { Footer } from "./components/Footer";
 function App() {
   return (
     <div>
-      <Header>My Profile</Header>
+      <Header>My Profile..</Header>
       <AboutMe></AboutMe>
       <WhyHireMe></WhyHireMe>
       <Portfolio></Portfolio>

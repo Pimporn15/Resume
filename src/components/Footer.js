@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import Tel from "../Picture/Tel.png";
-import email from "../Picture/email.png";
+
 import Discord from "../Picture/Discord.png";
 import React from "react";
 function Footer() {

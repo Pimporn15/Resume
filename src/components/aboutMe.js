@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
 import Kate from "../Picture/Kate.jpg";
-import Email from "../Picture/email.png";
+
 import twitter from "../Picture/twitter.png";
 import Facebook from "../Picture/Facebook.png";
 import Instargram from "../Picture/Instargram.png";
